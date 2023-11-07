@@ -1,28 +1,63 @@
-<section class="section_slider">
-    <div class="content_slider">
-        <div class="textBox">
-            <h2><br /><span></span></h2>
-            <p></p>
-            <a href="#"></a>
+<article class="containerHome">
+  <div class="hotterProducts">
+    <div class="card">
+      <div class="ProductBackground">
+        <div class="gradients">
+          <div class="gradient blue"></div>
         </div>
-        <div class="imgBox">
-            <img src="" class="product" />
-        </div>
-    </div>
-    <ul class="thumb_slider"></ul>
-    <ul class="social_slider">
-    <li>
-      <a href="https://www.facebook.com/bigtronica/"><img src="https://www.bigtronica.com/img/cms/SliderResponsive/facebook.png" alt="" /></a>
-    </li>
-    <li>
-      <a href="https://www.youtube.com/channel/UCT5PM5WeEsXWLeqfDFwuVuQ"><img src="https://www.bigtronica.com/img/cms/SliderResponsive/youtube.png" alt="" /></a>
-    </li>
-    <li>
-      <a href="https://www.instagram.com/bigtronica/"><img src="https://www.bigtronica.com/img/cms/SliderResponsive/instagram.png" alt="" /></a>
-    </li>
-    <li>
-      <a href="https://github.com/BigtronicaSAS"><img src="https://www.bigtronica.com/img/cms/SliderResponsive/github.png" alt="" /></a>
-    </li>
-  </ul>
+        <h1 class="markProduct">ENDER</h1>
+        <img src="https://bigtronica.com/img/cms/HomeCategories/creality.png" alt="" class="logoMark">
+        <img src="https://bigtronica.com/img/cms/HomeCategories/impresora.png" alt="" class="hotProduct">
 
-</section>
+      </div>
+      <div class="info">
+        <div class="productName">
+          <div>
+            <h1 class="big">Creality Ender 3</h1>
+            <span class="new">Nuevo</span>
+          </div>
+          <h3 class="small">NEO V2</h3>
+        </div>
+        <div class="buy-price">
+          <a href="#" class="buy">
+            <ion-icon name="eye"></ion-icon></i> Ver Producto
+          </a>
+          <div class="price">
+            <i class="fas fa-dollar-sign"></i>
+            <h1>189.99</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+    <div class="ProductBackground">
+      <div class="gradients">
+        <div class="gradient red"></div>
+      </div>
+      <h1 class="markProduct">ENDER</h1>
+      <img src="https://bigtronica.com/img/cms/HomeCategories/creality.png" alt="" class="logoMark">
+      <img src="https://bigtronica.com/img/cms/HomeCategories/MaxNeo.png" alt="" class="hotProduct">
+
+    </div>
+    <div class="info">
+      <div class="productName">
+        <div>
+          <h1 class="big">Creality Ender 3</h1>
+          <span class="new">Nuevo</span>
+        </div>
+        <h3 class="small">NEO V2</h3>
+      </div>
+      <div class="buy-price">
+        <a href="#" class="buy">
+          <ion-icon name="eye"></ion-icon></i> Ver Producto
+        </a>
+        <div class="price">
+          <i class="fas fa-dollar-sign"></i>
+          <h1>189.99</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+</article>
