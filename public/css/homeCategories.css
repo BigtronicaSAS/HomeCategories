@@ -1,3 +1,8 @@
+.containerHome{
+  width: 100%;
+  display: flex;
+}
+
 .hotterProducts {
   font-family: 'Poppins', sans-serif;
   width: 100%;
