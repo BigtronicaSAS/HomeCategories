@@ -4,11 +4,11 @@
 }
 
 .hotterProducts {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins',sans-serif;
   width: 100%;
   display: flex;
   flex-wrap: nowrap;
-  margin: 100px 0 100px 0;
+  margin: 40px 0 60px 0;
 }
 
 .hotterProducts .card {
