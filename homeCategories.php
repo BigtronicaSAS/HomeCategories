@@ -2,7 +2,7 @@
 if (!defined('_PS_VERSION_'))
     exit;
 
-class homeCategories  extends Module
+class HomeCategories  extends Module
 {
 
     public function __construct()
