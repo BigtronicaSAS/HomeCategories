@@ -67,10 +67,11 @@
   display: none;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 700px) {
   .sliderContainer {
-    border-radius: 0px;
-    height: 400px;
+    display: none;
+    /* border-radius: 0px;
+    height: 400px; */
   }
   .sliderContainer .Slider {
     height: 400px;
