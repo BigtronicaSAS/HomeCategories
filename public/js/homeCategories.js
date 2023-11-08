@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-  console.log("iniciando ");
-  initializeSwiper(".sectionHotter");
-
+  // console.log("");
+  HotterSwiper(".sectionHotter");
+  CategorySwiper(".galeria-category");
 });

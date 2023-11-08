@@ -1,4 +1,4 @@
-initializeSwiper = (elementSelector) => {
+HotterSwiper = (elementSelector) => {
   new Swiper(elementSelector, {
     direction: "horizontal",
     loop: true,
@@ -20,5 +20,20 @@ initializeSwiper = (elementSelector) => {
         slidesPerView: 1
       }
     }
+  });
+};
+
+CategorySwiper = (elementSelector) => {
+  new Swiper(elementSelector, {
+    effect: 'fade',
+    fadeEffect: {
+      crossFade: true
+    },
+    direction: "vertical",
+    loop: true,
+    autoplay: {
+      delay: 9000,
+    },
+    speed: 5000,
   });
 };
