@@ -1,7 +1,14 @@
 <section class="sliderContainer">
   <div class="Slider">
     <section class="left-slider">
-      <h4>ANY TEXT</h4>
+      <div class="container_text">
+        <h2>¡Llegaron!<br /><span>Raspberry PI</span></h2>
+        <a href="https://www.bigtronica.com/search?controller=search&orderby=position&orderway=desc&search_query=raspberrypi&submit_search="
+          class="etiqueta">Ver Productos</a>
+      </div>
+      <div class="container_img">
+        <img src="https://bigtronica.com/img/cms/HomeCategories/RasbperryPi.png" alt="">
+      </div>
     </section>
     <section class="galeria-category swiper">
       <div class="imgCategory swiper-wrapper">
