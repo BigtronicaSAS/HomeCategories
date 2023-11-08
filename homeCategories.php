@@ -2,7 +2,7 @@
 if (!defined('_PS_VERSION_'))
     exit;
 
-class HomeCategories  extends Module
+class HomeCategories extends Module
 {
 
     public function __construct()
@@ -52,6 +52,9 @@ class HomeCategories  extends Module
 
     public function hookHeader($params)
     {
+        $this->context->controller->addCSS('https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css');
+        $this->context->controller->addJS('https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js');
+        $this->context->controller->addJS($this->_path . 'public/js/SliderSettings.js');
         $this->context->controller->addCSS(($this->_path) . 'public/css/homeCategories.css', 'all');
         $this->context->controller->addJS($this->_path . 'public/js/homeCategories.js');
 
