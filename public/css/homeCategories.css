@@ -7,7 +7,7 @@
   width: 100%;
   height: 300px;
   background-color: black;
-  overflow: hidden;
+  overflow: visible;
 }
 
 .sliderContainer .left-slider {
@@ -16,7 +16,20 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
+
+.sliderContainer .left-slider .decorationNavidad {
+  width: 60%;
+  position: absolute;
+  top: -30px;
+  left: -40px;
+}
+
+.sliderContainer .left-slider .decorationNavidad img {
+  width: 100%;
+}
+
 
 
 .sliderContainer .left-slider .container_text {

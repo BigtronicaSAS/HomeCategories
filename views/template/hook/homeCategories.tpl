@@ -1,10 +1,13 @@
 <section class="sliderContainer">
   <div class="Slider">
     <section class="left-slider">
+      <div class="decorationNavidad">
+        <img src="https://bigtronica.com/img/cms/HomeCategories/navidad.png" alt="">
+      </div>
       <div class="container_text">
-        <h2>¡Llegaron!<br /><span>Raspberry PI</span></h2>
-        <a href="https://www.bigtronica.com/search?controller=search&orderby=position&orderway=desc&search_query=raspberrypi&submit_search="
-          class="etiqueta">Ver Productos</a>
+        <h2>¡Ahorra! Navidad<br /><span>Esta llegando</span></h2>
+        {* <a href="https://www.bigtronica.com/search?controller=search&orderby=position&orderway=desc&search_query=raspberrypi&submit_search="
+          class="etiqueta">Ver Productos</a> *}
       </div>
     </section>
     <section class="galeria-category swiper">
