@@ -6,48 +6,42 @@
         <a href="https://www.bigtronica.com/search?controller=search&orderby=position&orderway=desc&search_query=raspberrypi&submit_search="
           class="etiqueta">Ver Productos</a>
       </div>
-      <div class="container_img">
-        <img src="https://bigtronica.com/img/cms/HomeCategories/RasbperryPi.png" alt="">
-      </div>
     </section>
     <section class="galeria-category swiper">
       <div class="imgCategory swiper-wrapper">
         <div class="articleCategory swiper-slide">
-          <div class="sectionCategory">
-            <img src="https://bigtronica.com/img/cms/HomeCategories/arduino-galeria-4.png" alt="">
-            <a href="#">Name Category</a>
-          </div>
-          <div class="sectionCategory">
-            <img src="https://bigtronica.com/img/cms/HomeCategories/unit-galeria-2.png" alt="">
-            <a href="#">Name Category</a>
-          </div>
-          <div class="sectionCategory">
-            <img src="https://bigtronica.com/img/cms/HomeCategories/arduino-galeria-4.png" alt="">
-            <a href="#">Name Category</a>
-          </div>
-          <div class="sectionCategory">
-            <img src="https://bigtronica.com/img/cms/HomeCategories/unit-galeria-2.png" alt="">
-            <a href="#">Name Category</a>
-          </div>
-        </div>
-        <div class="articleCategory swiper-slide">
-          <div class="sectionCategory">
-            <img src="https://bigtronica.com/img/cms/HomeCategories/arduino-galeria-1.png" alt="">
-            <a href="#">Name Category</a>
-          </div>
+          <div class="sectionCategory blue">
+            <div class="containerImagen"> <img src="https://bigtronica.com/img/cms/HomeCategories/Multimetros.png"
+                alt="">
+            </div>
+            <a href="https://www.bigtronica.com/697-equipos-medicion" target="_blank" class="nameCategory">
+              <p>Equipos de Medición</p>
+            </a>
 
-          <div class="sectionCategory">
-            <img src="https://bigtronica.com/img/cms/HomeCategories/arduino-galeria-2.png" alt="">
-            <a href="#">Name Category</a>
           </div>
-          <div class="sectionCategory">
-            <img src="https://bigtronica.com/img/cms/HomeCategories/unit-galeria-1.png" alt="">
-            <a href="#">Name Category</a>
-          </div>
+          <div class="sectionCategory green">
+            <div class="containerImagen"> <img src="https://bigtronica.com/img/cms/HomeCategories/CintasLed.png" alt="">
+            </div>
+            <a href="https://www.bigtronica.com/52-optoelectronica" target="_blank" class="nameCategory">
+              <p>Cintas Led</p>
+            </a>
 
-          <div class="sectionCategory">
-            <img src="https://bigtronica.com/img/cms/HomeCategories/unit-galeria-3.png" alt="">
-            <a href="#">Name Category</a>
+          </div>
+          <div class="sectionCategory orange">
+            <div class="containerImagen"> <img src="https://bigtronica.com/img/cms/HomeCategories/SistemaSolar.png"
+                alt=""></div>
+            <a href="https://www.bigtronica.com/16-energia-solar" target="_blank" class="nameCategory">
+              <p>Energía Solar</p>
+            </a>
+
+          </div>
+          <div class="sectionCategory red">
+            <div class="containerImagen"> <img src="https://bigtronica.com/img/cms/HomeCategories/domotica.png" alt="">
+            </div>
+            <a href="https://www.bigtronica.com/89-domotica-hogar" target="_blank" class="nameCategory">
+              <p>Domótica</p>
+            </a>
+
           </div>
         </div>
       </div>
@@ -130,7 +124,7 @@
             </div>
             <div class="buy-price">
               <a href="#" class="buy">
-                <ion-icon name="eye"></ion-icon></i> Ver Producto
+                <ion-icon name="eye"></ion-icon></i> MUY PRONTO
               </a>
             </div>
           </div>
@@ -154,7 +148,7 @@
             </div>
             <div class="buy-price">
               <a href="#" class="buy">
-                <ion-icon name="eye"></ion-icon></i> Ver Producto
+                <ion-icon name="eye"></ion-icon></i> Muy PRONTO
               </a>
             </div>
           </div>

@@ -32,8 +32,8 @@ CategorySwiper = (elementSelector) => {
     direction: "vertical",
     loop: true,
     autoplay: {
-      delay: 9000,
+      delay: 5000,
     },
-    speed: 5000,
+    speed: 3000,
   });
 };
