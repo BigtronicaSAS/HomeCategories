@@ -44,6 +44,41 @@
 
           </div>
         </div>
+        <div class="articleCategory swiper-slide">
+          <div class="sectionCategory blue">
+            <div class="containerImagen"> <img src="https://bigtronica.com/img/cms/HomeCategories/Arduino.png" alt="">
+            </div>
+            <a href="https://www.bigtronica.com/529-sistemas-arduino" target="_blank" class="nameCategory">
+              <p>Sistemas Arduino</p>
+            </a>
+
+          </div>
+          <div class="sectionCategory green">
+            <div class="containerImagen"> <img src="https://bigtronica.com/img/cms/HomeCategories/sensores.png" alt="">
+            </div>
+            <a href="https://www.bigtronica.com/8-sensores" target="_blank" class="nameCategory">
+              <p>Sensores</p>
+            </a>
+
+          </div>
+          <div class="sectionCategory black">
+            <div class="containerImagen"> <img src="https://bigtronica.com/img/cms/HomeCategories/impresorascnc.png"
+                alt=""></div>
+            <a href="https://www.bigtronica.com/84-cnc-3d-partes" target="_blank" class="nameCategory">
+              <p>CNC 3D</p>
+            </a>
+
+          </div>
+          <div class="sectionCategory orange">
+            <div class="containerImagen"> <img src="https://bigtronica.com/img/cms/HomeCategories/herramientas.png"
+                alt="">
+            </div>
+            <a href="https://www.bigtronica.com/63-herramientas" target="_blank" class="nameCategory">
+              <p>Herramientas</p>
+            </a>
+
+          </div>
+        </div>
       </div>
     </section>
   </div>

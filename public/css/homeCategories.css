@@ -142,6 +142,9 @@
 .galeria-category .imgCategory .sectionCategory.orange:hover {
   background: linear-gradient(45deg, #fc4a1a, #f7b733);
 }
+.galeria-category .imgCategory .sectionCategory.black:hover {
+  background:linear-gradient(45deg, #111, #666);
+}
 
 .galeria-category .imgCategory .sectionCategory .containerImagen {
   width: 50%;
