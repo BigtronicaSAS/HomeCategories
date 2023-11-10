@@ -54,6 +54,9 @@ class HomeCategories extends Module
     {
         $this->context->controller->addCSS('https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css');
         $this->context->controller->addJS('https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js');
+        $this->context->controller->addCSS('https://cdn.jsdelivr.net/npm/driver.js@1.0.1/dist/driver.css');
+        $this->context->controller->addJS('https://cdn.jsdelivr.net/npm/driver.js@1.0.1/dist/driver.js.iife.js');
+        $this->context->controller->addJS($this->_path . 'public/js/driver.js');
         $this->context->controller->addJS($this->_path . 'public/js/SliderSettings.js');
         $this->context->controller->addCSS(($this->_path) . 'public/css/homeCategories.css', 'all');
         $this->context->controller->addJS($this->_path . 'public/js/homeCategories.js');
