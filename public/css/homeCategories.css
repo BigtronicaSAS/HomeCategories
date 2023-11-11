@@ -6,7 +6,7 @@
   position: relative;
   width: 100%;
   height: 300px;
-  background-color: black;
+  background-color: white;
   overflow: visible;
 }
 
@@ -16,6 +16,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: black;
+  border-radius: 14px;
   position: relative;
 }
 
@@ -79,24 +81,6 @@
   text-transform: uppercase;
 }
 
-@media (max-width: 600px) {
-
-  .sliderContainer .left-slider p,
-  .sliderContainer .left-slider .etiqueta {
-    display: none;
-  }
-
-  #homepage-slider .homeslider-description .img_presentation {
-    display: none;
-  }
-
-  .sliderContainer .left-slider h2 {
-    font-size: 2em;
-
-  }
-
-}
-
 .sliderContainer .Slider {
   display: grid;
   height: 300px;
@@ -138,8 +122,9 @@
 .galeria-category .imgCategory .sectionCategory:hover .containerImagen img {
   top: -90px;
 }
+
 .galeria-category .imgCategory .sectionCategory.red:hover {
-  background:linear-gradient(45deg, #d62926, #ee625f);
+  background: linear-gradient(45deg, #d62926, #ee625f);
 
 }
 
@@ -155,8 +140,9 @@
 .galeria-category .imgCategory .sectionCategory.orange:hover {
   background: linear-gradient(45deg, #fc4a1a, #f7b733);
 }
+
 .galeria-category .imgCategory .sectionCategory.black:hover {
-  background:linear-gradient(45deg, #111, #666);
+  background: linear-gradient(45deg, #111, #666);
 }
 
 .galeria-category .imgCategory .sectionCategory .containerImagen {
@@ -195,22 +181,102 @@
   display: none;
 }
 
-@media (max-width: 700px) {
-  .sliderContainer {
-    display: none;
-    /* border-radius: 0px;
-    height: 400px; */
+@media (max-width: 990px) {
+  .sliderContainer .Slider {
+    height: 700px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.5fr 3fr;
+    grid-template-areas:
+      "sectionSlider"
+      "categorias";
+    grid-gap: 10px;
+    border-radius: 0px;
   }
 
-  .sliderContainer .Slider {
-    height: 400px;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
+  .sliderContainer .left-slider {
+    grid-area: sectionSlider;
+    padding: 5px;
+  }
+
+  .sliderContainer .left-slider .decorationNavidad {
+    display: none;
+  }
+
+  .sliderContainer .left-slider h2 {
+    font-size: 2.3rem;
+    line-height: 1.4em;
+    font-weight: 700;
+  }
+
+  .galeria-category {
+    padding-left: 0px;
+    grid-area: categorias;
+  }
+
+  .galeria-category .imgCategory .articleCategory {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 100px);
+    grid-gap: 10px;
+
+  }
+
+  .galeria-category .imgCategory .sectionCategory .containerImagen {
+    width: 35%;
+    position: relative;
+  }
+
+  .galeria-category .imgCategory .sectionCategory .nameCategory {
+    width: 55%;
+  }
+
+  .galeria-category .imgCategory .sectionCategory .nameCategory p {
+    font-size: 1.56rem;
+    line-height: 1.2em;
+  }
+
+
+}
+
+@media (max-width: 500px) {
+  .sliderContainer .left-slider h2 {
+    font-size: 1.6rem;
+  }
+
+  .galeria-category .imgCategory .sectionCategory .nameCategory p {
+    font-size: 1.2em;
   }
 }
 
+@media (max-width: 360px) {
+
+  .sliderContainer .left-slider h2 {
+    font-size: 1.7rem;
+  }
+
+  .galeria-category .imgCategory .sectionCategory .containerImagen {
+    width: 40%;
+  }
+
+  .galeria-category .imgCategory .sectionCategory .nameCategory {
+    width: 60%;
+  }
+
+  .galeria-category .imgCategory .sectionCategory .containerImagen img {
+    width: 160%;
+    top: -50px;
+    left: -30px;
+  }
+
+  .galeria-category .imgCategory .sectionCategory:hover .containerImagen img {
+    top: -60px;
+  }
+  .galeria-category .imgCategory .sectionCategory .nameCategory p {
+    font-size: 0.96em;
+}
+}
+
 /*-----------------------------------*/
-/*Section Impresoras y CNC*/
+/*Seccion Impresoras y CNC*/
 .swiper {
   margin: 0;
   padding-top: 22px;
@@ -373,6 +439,14 @@
 }
 
 @media (max-width: 500px) {
+  .swiper {
+    padding-top: 50px;
+  }
+
+  .containerHome {
+    margin-top: 22px;
+  }
+
   .hotterProducts .card {
     flex-direction: column;
   }
@@ -409,5 +483,11 @@
 
   .hotterProducts .card .info .buy-price {
     padding-top: 0px;
+  }
+}
+
+@media (max-width: 360px) {
+  .swiper {
+    padding-top: 0;
   }
 }
